@@ -72,14 +72,14 @@ main {
 .component {
     width: min(100% - 4.6875rem, 21.875rem);
     background-color: var(--CARD-BGCOLOR);
-    padding: 1.5rem;
+    padding: 1.25rem;
     border-radius: 1.25rem;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1.25rem;
 }
 
 .component__figure {
@@ -105,7 +105,8 @@ main {
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
-    gap: 1rem;
+    gap: 1.25rem;
+    width: 95%;
 }
 
 .component__h2 {
