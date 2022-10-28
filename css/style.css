@@ -164,3 +164,13 @@ hr {
 .component__creator .creator-name {
     color: var(--WHITE);
 }
+
+@media screen and (max-width: 36em) {
+    body {
+        height: 100%;
+    }
+
+    .component {
+        width: 18.75rem;
+    }
+}
