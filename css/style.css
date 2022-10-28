@@ -42,11 +42,6 @@ img {
     white-space: nowrap;
 }
 
-.active:hover {
-    color: var(--CYAN) !important;
-    cursor: pointer;
-}
-
 /* || GENERAL STYLES */
 html {
     font-size: 100%;
@@ -142,17 +137,13 @@ main {
     color: var(--CYAN);
 }
 
-hr {
-    height: 0.0625rem;
-    background-color: var(--LINE-BGCOLOR);
-    border: none;
-}
-
 .component__creator {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
+    border-top: 1px solid var(--LINE-BGCOLOR);
+    padding-top: 1.25rem;
 }
 
 .component__creator div {
@@ -164,4 +155,15 @@ hr {
 
 .component__creator .creator-name {
     color: var(--WHITE);
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: var(--WHITE);
+}
+
+a:hover,
+a:focus {
+    color: var(--CYAN);
 }
