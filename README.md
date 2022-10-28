@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [NFT preview card component with Flexbox](https://www.frontendmentor.io/solutions/nft-preview-card-component-with-flexbox-fkyyJZomSE)
+- Live Site URL: [nft-co](https://nft-co.netlify.app/)
 
 ## My process
 
