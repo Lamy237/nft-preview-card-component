@@ -35,7 +35,7 @@ img {
 /* || UTILITY CLASSES */
 .offscreen {
     position: absolute;
-    left: -62.5rem;
+    left: -625rem;
 }
 
 .nowrap {
@@ -50,7 +50,7 @@ html {
 
 body {
     background-color: var(--BODY-BGCOLOR);
-    color: #fff;
+    color: var(--WHITE);
     min-height: 100vh;
 
     display: flex;
@@ -99,7 +99,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     gap: 1.25rem;
     width: 95%;
 }
@@ -142,7 +141,7 @@ main {
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-    border-top: 1px solid var(--LINE-BGCOLOR);
+    border-top: 0.0625rem solid var(--LINE-BGCOLOR);
     padding-top: 1.25rem;
 }
 
